@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: app-jar
-          path: build/libs/my-shadow-jar-1.0.0-all.jar # مسیر دقیق فایل JAR
+          path: app/build/libs/my-shadow-jar-1.0.0-all.jar # مسیر دقیق فایل JAR
 
   release:
     needs: build

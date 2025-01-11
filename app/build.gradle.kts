@@ -1,6 +1,7 @@
 plugins {
     id("com.gradleup.shadow") version "9.0.0-beta4"
-    kotlin("jvm") version "2.0.21"
+//    kotlin("jvm") version "2.0.21"
+    kotlin("jvm")
 }
 
 group = "ir.rezajax"
@@ -15,7 +16,6 @@ tasks {
         // Specify the main class to run
         manifest {
             attributes["Main-Class"] = "ir.rezajax.MainKt" // Replace with your main class path
-
         }
         archiveBaseName.set("my-shadow-jar") // Name of the JAR file
         archiveVersion.set("1.0.0") // Set the version if necessary

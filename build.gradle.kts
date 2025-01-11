@@ -1,3 +1,8 @@
+plugins {
+    kotlin("jvm") version "2.0.21" apply false //نکته: apply false به این معناست که پلاگین فقط تعریف می‌شود اما به پروژه والد اعمال نمی‌شود. زیرپروژه‌ها از این تعریف استفاده می‌کنند.
+}
+
+
 /*
 plugins {
     application // برای پشتیبانی از برنامه‌های اجرایی
@@ -16,3 +21,5 @@ application {
     // مشخص کردن کلاس اصلی
     mainClass.set("ir.rezajax.MainKt")
 }*/
+
+
