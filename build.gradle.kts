@@ -15,6 +15,7 @@ tasks {
         // Specify the main class to run
         manifest {
             attributes["Main-Class"] = "ir.rezajax.MainKt" // Replace with your main class path
+
         }
         archiveBaseName.set("my-shadow-jar") // Name of the JAR file
         archiveVersion.set("1.0.0") // Set the version if necessary
@@ -24,6 +25,7 @@ tasks {
 
 
 dependencies {
+
     testImplementation(kotlin("test"))
 }
 
