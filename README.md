@@ -5,11 +5,6 @@ move app from scr to -> app (like android studio)
 Sock
 
 
----
-include
-```kotlin
-include("moduleName")
-```
-sadf
-safdasfsdaf
-safdasfsadfd sdfdas  fsad fsa 
+create app , sock
+
+and run with tasks :app:run
