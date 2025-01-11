@@ -3,3 +3,4 @@ plugins {
 }
 rootProject.name = "SockItToMe"
 include("app")
+include("sock")

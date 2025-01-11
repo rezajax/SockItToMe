@@ -25,6 +25,8 @@ tasks {
 
 
 dependencies {
+
+    implementation(project("sock"))
     testImplementation(kotlin("test"))
 }
 
