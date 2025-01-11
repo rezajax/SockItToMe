@@ -21,6 +21,17 @@ tasks {
         archiveVersion.set("1.0.0") // Set the version if necessary
         mergeServiceFiles() // Optional: Merges service files from dependencies
     }
+
+    test {
+        useJUnitPlatform()
+    }
+
+    register<JavaExec>("run") {
+        group = "application"
+        description = "Runs the application"
+        classpath = sourceSets["main"].runtimeClasspath
+        mainClass.set("ir.rezajax.MainKt") // Replace with your actual main class
+    }
 }
 
 
